@@ -1,3 +1,10 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +16,7 @@
     text-align: center;
 
 }
-#topbar.sticky{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+
 main{
     background: #ddd;
     height: 1500px;
@@ -23,8 +25,7 @@ main{
     height: 60px;
 
 }
-button.sticky{
-    position: fixed;
-    left: 0;
-    top: 60px
+
+#topbar.sticky{
+    width: 100%;
 }
